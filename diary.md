@@ -7,7 +7,8 @@ This file shows sample entries for your **Developer's Diary**. You must document
 
 **Key Principle**: You're directing AI like a junior developer - always review, critique, and improve their suggestions.
 
----
+**NOTE: ** I started this project late, so the entries below are written as honest catch-up reflections rather than pretending I completed weekly work earlier. I have not backdated commits. The purpose of this diary is to document how I used AI during the actual development process, how I reviewed AI suggestions, and how I improved the project.
+
 
 ## Foundation Skills Examples
 
