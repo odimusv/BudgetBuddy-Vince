@@ -1,26 +1,31 @@
-Date,Amount,Category,Description
-2024-08-01,$45.50,Groceries,Woolworths Weekly Shop
-2024-08-02,$12.00,Transport,Opal Card Top-up
-2024-08-03,$89.95,Entertainment,Concert Tickets - Enmore Theatre
-2024-08-04,$3.50,Coffee,Campus Cafe Flat White
-2024-08-05,$120.00,Groceries,Coles Weekly Shop
-2024-08-06,-$25.00,Refund,Returned Textbook - Co-op Bookshop
-2024-08-07,$85.00,Dining,Birthday Dinner - The Rocks
-2024-08-08,$15.95,Coffee,Starbucks Double Shot
-2024-08-09,$67.80,Utilities,Electricity Bill - Origin Energy
-2024-08-10,$4.20,Coffee,Campus Cafe Cappuccino
-2024-08-11,$32.50,Transport,Uber to Airport
-2024-08-12,$156.00,Groceries,Woolworths Fortnightly Shop
-2024-08-13,$8.50,Coffee,Gloria Jeans Large Latte
-2024-08-14,$95.00,Entertainment,Movies and Dinner - Event Cinemas
-2024-08-15,$28.90,Dining,Lunch - Guzman y Gomez
-2024-08-16,-$12.50,Refund,Coffee Shop Refund
-2024-08-17,$45.00,Transport,Petrol - Caltex Woolworths
-2024-08-18,$73.20,Groceries,IGA Local Shop
-2024-08-19,$22.00,Entertainment,Netflix Monthly Subscription
-2024-08-20,$5.80,Coffee,Local Cafe Americano
-2024-08-21,$34.95,Dining,Thai Takeaway
-2024-08-22,$18.50,Transport,Bus Pass Weekly
-2024-08-23,$92.00,Utilities,Internet Bill - Telstra
-2024-08-24,$6.80,Coffee,University Coffee Cart
-2024-08-25,$145.60,Groceries,Monthly Bulk Shopping - Costco
+Date,Description,Category,Amount
+2026-04-01,Woolworths Carousel,Groceries,$46.80
+2026-04-02,Transperth SmartRider,Transport,$7.20
+2026-04-03,Campus Cafe,Coffee,$5.50
+2026-04-04,Netflix Subscription,Subscriptions,$16.99
+2026-04-05,Uber Eats,Dining,$28.40
+2026-04-06,Kmart Belmont,Shopping,$32.00
+2026-04-07,Coles Victoria Park,Groceries,$54.35
+2026-04-08,Transperth SmartRider,Transport,$6.80
+2026-04-09,Student Guild Cafe,Coffee,$4.90
+2026-04-10,Hoyts Cinema,Entertainment,$22.00
+2026-04-11,Spotify,Subscriptions,$13.99
+2026-04-12,ALDI Cannington,Groceries,$38.75
+2026-04-13,McDonald's,Dining,$14.60
+2026-04-14,Pharmacy 777,Health,$18.20
+2026-04-15,Transperth SmartRider,Transport,$7.20
+2026-04-16,Campus Cafe,Coffee,$6.20
+2026-04-17,JB Hi-Fi,Shopping,$49.00
+2026-04-18,Woolworths Carousel,Groceries,$61.90
+2026-04-19,Uber,Eating Out,$19.50
+2026-04-20,Bookshop,Education,$42.00
+2026-04-21,Transperth SmartRider,Transport,$6.80
+2026-04-22,Domino's Pizza,Dining,$21.95
+2026-04-23,Returned Item Refund,Refund,-$25.00
+2026-04-24,Campus Cafe,Coffee,$5.70
+2026-04-25,Event Ticket,Entertainment,$35.00
+2026-04-26,Coles Victoria Park,Groceries,$47.25
+2026-04-27,Phone Plan,Subscriptions,$35.00
+2026-04-28,Transperth SmartRider,Transport,$7.20
+2026-04-29,Takeaway Sushi,Dining,$16.80
+2026-04-30,Emergency Savings Transfer,Savings,$50.00
