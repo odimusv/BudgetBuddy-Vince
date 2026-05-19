@@ -13,7 +13,7 @@ This file shows sample entries for your **Developer's Diary**. You must document
 ## Foundation Skills Examples
 
 ### Entry 1 – Problem Framing and Scope
-**Artifact:** Screenshot of ChatGPT conversation about analyzing spending data.
+**Artifact:** [entry1-problemframing](AI-CONVERSATION/entry1-problemframing.png)
 
 **Context:** I needed to turn my general Budget Buddy idea into a clear finance problem that was realistic for the assignment
 
