@@ -30,32 +30,19 @@ This file shows sample entries for your **Developer's Diary**. You must document
 
 ---
 
-### Entry 2 – Critiquing and Improving AI Code
+### Entry 2 – CSV Cleaning and Spending Analysis Code
 **Artifact:** Before/after screenshots of AI-generated spending analysis code.
 
-**Context:** AI gave me complex code that was hard to understand for my transaction analysis.
+**Context:** I needed help creating robust Python functions for cleaning transaction data and analysing spending.
 
-**AI's First Response:**
-```python
-df.groupby('Category')['Amount'].agg({'sum','mean','count'}).round(2)
-```
 
-**My Critique:** "This code is unclear and doesn't handle dollar signs. Can you make it more readable with business-friendly variable names and add data cleaning?"
+**My Initial Prompt:** Write a Python function for Budget Buddy that loads a CSV or DataFrame with Date, Amount, Category, and Description columns. It should handle dollar signs, commas, AUD text, bracketed negative amounts, refunds, invalid dates, and missing values. Use clear business-focused variable names and helpful error messages because this is for a student finance assistant.
 
-**AI's Improved Response:**
-```python
-# Clean amount data by removing dollar signs
-df['Amount_Clean'] = pd.to_numeric(df['Amount'].str.replace('$', ''), errors='coerce')
+**AI Response Summary:** AI suggested using pandas to load the data, clean the `Amount` column, convert dates, normalise categories, and group transactions by category.
 
-# Calculate spending metrics by category
-spending_summary = df.groupby('Category')['Amount_Clean'].agg({
-    'Total_Spent': 'sum',
-    'Average_Amount': 'mean', 
-    'Transaction_Count': 'count'
-}).round(2)
-```
+**My Critique/Improvement:** The first version was too compact, so I separated the work into smaller functions: one for parsing amounts, one for loading and cleaning data, one for analysis, and one for building the report. I also added better error messages for missing columns and empty CSV files.
 
-**Reflection:** I learned that AI's first response isn't always the best. By asking for clearer variable names and business context, I got much better code. This taught me to always review AI code and ask for improvements rather than accepting the first solution.
+**Reflection:** AI was useful for structure, but I still had to make the code readable and testable. I learned that finance data can be messy, so error handling is part of the business value, not just a technical extra.
 
 ---
 
