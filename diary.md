@@ -1,4 +1,4 @@
-# 📓 Developer's Diary – AI Collaboration Guide
+<img width="734" height="662" alt="image" src="https://github.com/user-attachments/assets/a5fe3077-438c-48b2-9f7f-aafa260d7115" /># 📓 Developer's Diary – AI Collaboration Guide
 
 This file shows sample entries for your **Developer's Diary**. You must document your AI collaboration throughout the project development. Each entry should have:
 - **Artifact**: a screenshot, GIF, or snippet of your AI interaction
@@ -12,16 +12,21 @@ This file shows sample entries for your **Developer's Diary**. You must document
 
 ## Foundation Skills Examples
 
-### Entry 1 – Effective AI Prompting for Business Data
+### Entry 1 – Problem Framing and Scope
 **Artifact:** Screenshot of ChatGPT conversation about analyzing spending data.
 
-**My Initial Prompt:** "Help me analyze CSV data with pandas"
+**Context:** I needed to turn my general Budget Buddy idea into a clear finance problem that was realistic for the assignment
 
-**My Improved Prompt:** "I'm building a Smart Finance Assistant. I have a CSV with Date, Amount, Category, Description columns. The Amount has dollar signs that need cleaning. I want to calculate total spending by category and format results for a business presentation. Please write pandas code with clear comments."
 
-**Context:** Learning to write specific, business-focused AI prompts.
+**My Initial Prompt:** "I'm building a Smart Finance Assistant called Budget Buddy for students and young adults. The problem is that many do not understand where their money goes. Help me restate the problem in plain English and identify the core user needs, but keep the scope realistic for a Python/Colab/Gradio assignment."
 
-**Reflection:** The first prompt gave me generic pandas code. The improved prompt with business context got me professional, commented code that handled data cleaning. I learned that AI needs clear business context and output requirements to give useful results. Now I always include: data structure, business purpose, and desired output format.
+**AI Response Summary:** AI suggested that Budget Buddy should focus on uploaded transaction data, summarising category spending, identifying the largest spending areas, and giving simple budgeting advice.
+
+
+**My Critique/Improvement:** I decided not to include bank logins, live account syncing, or complex investment tracking because they would make the project too broad. I narrowed the project to CSV transaction analysis, practical spending advice, a small RAG guide, and a savings-goal tool.
+
+**Reflection:** This helped me learn that scoping is an important programming decision. AI gave me several feature ideas, but I had to choose a realistic set that matched the assignment and could be tested properly.
+
 
 ---
 
