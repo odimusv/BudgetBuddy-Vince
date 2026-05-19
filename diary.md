@@ -31,7 +31,7 @@ This file shows sample entries for your **Developer's Diary**. You must document
 ---
 
 ### Entry 2 – CSV Cleaning and Spending Analysis Code
-**Artifact:** Before/after screenshots of AI-generated spending analysis code.
+**Artifact:** ![entry2-csvcleaninganalysis.png](AI-CONVERSATIONS/entry2-csvcleaninganalysis.png)
 
 **Context:** I needed help creating robust Python functions for cleaning transaction data and analysing spending.
 
