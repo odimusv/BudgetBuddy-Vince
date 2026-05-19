@@ -1,4 +1,4 @@
-<img width="734" height="662" alt="image" src="https://github.com/user-attachments/assets/a5fe3077-438c-48b2-9f7f-aafa260d7115" /># 📓 Developer's Diary – AI Collaboration Guide
+📓 Developer's Diary – AI Collaboration Guide
 
 This file shows sample entries for your **Developer's Diary**. You must document your AI collaboration throughout the project development. Each entry should have:
 - **Artifact**: a screenshot, GIF, or snippet of your AI interaction
