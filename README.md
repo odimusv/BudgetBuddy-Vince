@@ -1,101 +1,94 @@
-# 📊 Smart Finance Assistant – Student Project Template
+# 📊 Budget Buddy – Smart Finance Assistant
 
 <!-- BADGES:START -->
-[![curtin](https://img.shields.io/badge/-curtin-f57c00?style=flat-square)](https://github.com/topics/curtin) [![ai-assistant](https://img.shields.io/badge/-ai--assistant-blue?style=flat-square)](https://github.com/topics/ai-assistant) [![chatbot](https://img.shields.io/badge/-chatbot-blue?style=flat-square)](https://github.com/topics/chatbot) [![edtech](https://img.shields.io/badge/-edtech-4caf50?style=flat-square)](https://github.com/topics/edtech) [![finance](https://img.shields.io/badge/-finance-blue?style=flat-square)](https://github.com/topics/finance) [![financial-tools](https://img.shields.io/badge/-financial--tools-blue?style=flat-square)](https://github.com/topics/financial-tools) [![gradio](https://img.shields.io/badge/-gradio-blue?style=flat-square)](https://github.com/topics/gradio) [![jupyter-notebook](https://img.shields.io/badge/-jupyter--notebook-blue?style=flat-square)](https://github.com/topics/jupyter-notebook) [![python](https://img.shields.io/badge/-python-3776ab?style=flat-square)](https://github.com/topics/python) [![rag](https://img.shields.io/badge/-rag-blue?style=flat-square)](https://github.com/topics/rag)
+[![curtin](https://img.shields.io/badge/-curtin-f57c00?style=flat-square)](https://github.com/topics/curtin)
+[![ai-assistant](https://img.shields.io/badge/-ai--assistant-blue?style=flat-square)](https://github.com/topics/ai-assistant)
+[![chatbot](https://img.shields.io/badge/-chatbot-blue?style=flat-square)](https://github.com/topics/chatbot)
+[![finance](https://img.shields.io/badge/-finance-blue?style=flat-square)](https://github.com/topics/finance)
+[![financial-tools](https://img.shields.io/badge/-financial--tools-blue?style=flat-square)](https://github.com/topics/financial-tools)
+[![budgeting](https://img.shields.io/badge/-budgeting-4caf50?style=flat-square)](https://github.com/topics/budgeting)
+[![gradio](https://img.shields.io/badge/-gradio-blue?style=flat-square)](https://github.com/topics/gradio)
+[![jupyter-notebook](https://img.shields.io/badge/-jupyter--notebook-blue?style=flat-square)](https://github.com/topics/jupyter-notebook)
+[![python](https://img.shields.io/badge/-python-3776ab?style=flat-square)](https://github.com/topics/python)
+[![rag](https://img.shields.io/badge/-rag-blue?style=flat-square)](https://github.com/topics/rag)
 <!-- BADGES:END -->
 
-Welcome to your project repository for the **ISYS2001 Final Programming Project**. This repo provides a starting point for building your **Smart Finance Assistant**.
+Welcome to my project repository for the **ISYS2001 Final Programming Project**.
+
+This project is called **Budget Buddy**, a Smart Finance Assistant designed to help students and young adults in Australia understand their spending habits, identify budgeting patterns, and receive practical money management suggestions.
 
 ---
 
 ## 📖 Project Overview
-In this project, you will design and implement a **Smart Finance Assistant** using:
-- Python (Google Colab)
-- [hands-on-ai](https://pypi.org/project/hands-on-ai/) (chat, RAG, agent tools)
-- [Gradio](https://www.gradio.app/) (to create a simple app interface)
 
-Your Assistant should include:
-- **Chat**: a finance-oriented personality bot
-- **RAG**: retrieval from CSV or other documents
-- **Agent Tool**: one custom tool (e.g., budget calculator, currency converter)
-- **Gradio UI**: a simple interface tying everything together
-- **Tests**: a Testing Section in your notebook
+**Budget Buddy** is a personal finance assistant built using Python, AI tools, RAG retrieval, a custom savings calculator, and a Gradio interface.
 
----
+The aim of the project is to make budgeting easier and less overwhelming for students and young adults by allowing users to upload transaction data and receive clear, supportive financial insights.
 
-## 📂 Suggested Repo Layout
-You may adapt this structure or create your own. Clarity and organisation are graded in the rubric.
+Budget Buddy can:
 
-```
-/README.md            ← this file
-/assignment.pdf       ← official assignment specification
-/starter_notebook.ipynb  ← scaffold notebook with six-step method
-/example_diary.md     ← sample Developer’s Diary entries
-/data/                ← your CSVs or sample datasets
-/tests/               ← your test scripts or asserts
-/ai-conversations/    ← weekly AI Evidence Packages (screenshots, notes)
-/docs/                ← pseudocode, design notes, planning docs
-```
+- Load and clean transaction CSV files
+- Analyse spending by category
+- Detect refunds and calculate net spending
+- Identify top spending categories
+- Generate practical budgeting recommendations
+- Provide a finance-focused chatbot
+- Retrieve budgeting information using RAG
+- Calculate savings goal timelines
+- Present everything in a simple Gradio web interface
+
+Budget Buddy does **not** provide personal financial advice. It is intended for budgeting education and general money management support only.
 
 ---
 
-## 🚀 Getting Started
-1. Open the `starter_notebook.ipynb` in Google Colab.
-2. Follow the **six-step methodology**:
-   1. Understand the problem
-   2. Identify inputs and outputs
-   3. Work the problem by hand
-   4. Write pseudocode
-   5. Convert to Python
-   6. Test with a variety of data
-3. Add at least one **meaningful GitHub commit per week** (Weeks 8–12).
-4. Document AI use in your **Developer’s Diary** (`/ai-conversations/` folder or a markdown file).
+## 🧠 Problem Being Solved
+
+Many students and young adults struggle to understand where their money is going. Transaction data can be confusing, especially when it includes refunds, subscriptions, eating out, transport costs, and flexible spending.
+
+Budget Buddy helps solve this problem by turning raw transaction data into easy-to-understand summaries and recommendations.
+
+For example, it can help users answer questions such as:
+
+- How much did I spend overall?
+- Which category did I spend the most on?
+- How much did refunds reduce my spending?
+- What spending areas could I reduce first?
+- How long will it take me to reach a savings goal?
+- What small budgeting actions can I take next?
 
 ---
 
-## ✅ Submission Requirements
-- Colab Notebook with full project implementation
-- GitHub repository with:
-  - Notebook, README, and Developer’s Diary
-  - Weekly AI Evidence Packages (Weeks 8–12)
-  - Meaningful commit history
-- Developer’s Diary entries that include:
-  - **Artifact**: screenshot or snippet of AI use
-  - **Context**: your goal
-  - **Reflection**: what worked, what didn’t, what you learned
+## 🛠️ Technologies Used
+
+This project uses:
+
+- **Python** for data processing and application logic
+- **Pandas** for loading, cleaning, and analysing transaction data
+- **hands-on-ai** for chatbot, RAG, and agent tool features
+- **Gradio** for the user interface
+- **Google Colab** for notebook development
+- **Assert-based testing** for validating the main functions
 
 ---
 
-## 📊 Assessment Criteria (Summary)
-- **Functionality** – chatbot, RAG, tool, and UI integrated (30%)
-- **Testing & Debugging** – clear tests, meaningful edge cases (20%)
-- **AI Collaboration & Progress** – AI evidence + weekly commits (20%)
-- **Business Relevance** – meaningful finance problem (15%)
-- **Clarity & Reflection** – repo organisation, README, diary (15%)
+## ✅ Main Features
 
-For the full rubric, see `assignment.pdf`.
+### 1. Transaction Data Cleaning
 
----
+Budget Buddy can load transaction data from a CSV file or pandas DataFrame.
 
-## 📚 Resources
+It handles:
 
-- **hands-on-ai Package**: [GitHub Repository](https://github.com/michael-borck/hands-on-ai)
-- **Documentation**: [DeepWiki Guide](https://deepwiki.com/michael-borck/hands-on-ai)
-- **For AI Assistants**: Share [this LLM context file](https://github.com/michael-borck/hands-on-ai/blob/main/LLM.txt) with ChatGPT/Claude/Copilot for better code suggestions
+- Dollar signs in amounts
+- Commas in large numbers
+- Refunds shown as negative amounts
+- Missing values
+- Invalid dates
+- Invalid amount formats
+- Blank rows
+- Missing required columns
 
----
+Required columns:
 
-## 💡 Tips
-- Keep your commits small and descriptive.
-- Use AI as a coding partner, not a crutch.
-- Remember: **undocumented AI use = misconduct**.
-
-Good luck, and have fun building your Finance Assistant! 🎉
-
----
-
-## 📜 License
-
-The template code in this repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-
-You are free to license your own work (your project code) under any license you choose.
+```text
+Date, Amount, Category, Description
